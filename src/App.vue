@@ -1,32 +1,42 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div id="app">       
+        <header class="header">
+            <nav class="menu">
+                <button class="menu__button" type="button" aria-label="Открыть меню"></button>
+                <HeaderNav :navList="nav"></HeaderNav>
+            </nav>
+        </header>
+        
+        <router-view/>
+
+        <!-- <footer class="footer">
+            <div class="footer__block">
+                <time class="footer__year">{{ new Date().getFullYear() }}</time> &copy;
+            </div>
+        </footer> -->
     </div>
-    <router-view/>
-  </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import HeaderNav from '@/components/HeaderNav'
 
-#nav {
-  padding: 30px;
+export default {
+    name: "App",
+    data () {
+        return {
+            nav: {}
+        }
+    },
+    mounted() {
+        console.log(process.env.BASE_URL)
+        fetch('../data/nav.json')
+        .then(response => response.json())
+        .then(json => {
+            this.nav = json
+        })
+    },
+    components: {
+        HeaderNav
+    }
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+</script>

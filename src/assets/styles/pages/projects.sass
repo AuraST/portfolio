@@ -1,0 +1,43 @@
+.projects
+    display: grid
+    grid-template-columns: 1fr
+    grid-auto-rows: auto
+    grid-gap: 25px
+
+    .project
+        position: relative
+        cursor: pointer
+        border: 1px solid var(--gray-light)
+
+    .project__photo
+        width: 100%
+        height: 100%
+        transition: filter .3s
+
+    .project__desc
+        position: absolute
+        bottom: 0
+        left: 0
+        width: 100%
+        margin-bottom: 0
+        padding: 15px 20px
+        background-color: var(--black)
+        font-size: 1em
+        color: var(--white)
+        box-sizing: border-box
+        transition: opacity .5s
+
+@media screen and (min-width: 992px)
+    .projects
+        grid-template-columns: repeat(3, 1fr)
+        grid-auto-rows: 16px
+        grid-gap: 25px
+
+        .project:hover > .project__desc
+            opacity: 1
+
+        .project:hover > .project__photo
+            filter: brightness(55%)
+
+        .project__desc
+            opacity: 0

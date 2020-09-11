@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper wrapper--top" id="anchor-home">
+        <div class="container">
+            <header class="header">
+                <a class="header__logo logo" href="/">
+                    <img class="logo-img" src="images/logo.png" alt="Logotype">
+                </a>
+                <nav class="header__navigation navigation">
+                    <a class="active" href="#anchor-home">home</a>
+                    <a href="#anchor-about">about me</a>
+                    <a href="#anchor-work">work</a>
+                    <a href="#anchor-contact">contact</a>
+                </nav>
+            </header>
+
+            <div class="main">
+                <div class="position-relative">
+                    <div class="main__title-glitch" data-title="Slice of my life.">
+                        <img class="main__title" src="images/welcome-text.png" alt="Slice of my life.">
+                    </div>
+                </div>
+                <a class="main__scroll" href="#anchor-about">Scroll to see more</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="about fade-block" id="anchor-about">
+        <div class="about__info">
+            <h2 class="about__info-title fade-block__item fade-block__item-gl" style="--time: .7s;">Hello I am <span class="tc--blue">John</span></h2>
+            <p class="about__info-text fade-block__item fade-block__item-gl" style="--time: .7s;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nulla egestas erat vel odio consequat, eu consectetur ligula lacinia. 
+                Quisque sodales a urna id iaculis. Cras facilisis lorem posuere, consectetur massa et, egestas enim.
+            </p>
+            <a class="btn btn--white-blue fade-block__item fade-block__item-vb" style="--time: .9s;" href="#">Contact with me</a>
+        </div>
+        <div class="about__photo">
+            <img class="about__photo-img" src="images/photo-sea.png" alt="Photo of the sea">
+            <img class="about__photo-img" src="images/photo-city.png" alt="Photo of the city">
+            <img class="about__photo-img" src="images/photo-beach.png" alt="Photo of the beach">
+        </div>
+    </section>
+
+    <section class="case fade-block" id="anchor-work">
+        <div class="case__img">
+            <img src="images/photo-selfie.png" alt="My selfie">
+        </div>
+        <div class="cese__info">
+            <div class="case__info-block">
+                <p class="case__info-title fade-block__item fade-block__item-gr" style="--time: 0.9s;">
+                    Lorem ipsum dolor sit amet
+                </p>
+                <p class="case__info-text fade-block__item fade-block__item-gr" style="--time: 0.9s;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas erat vel odio consequat, eu consectetur ligula lacinia. 
+                </p>
+                <a class="btn btn--white fade-block__item fade-block__item-vb" style="--time: 0.9s;" href="#">view case study</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper wrapper--bottom fade-block" id="anchor-contact">
+        <div class="container footer__block">
+            <div class="recommend">
+                <p class="recommend__title fade-block__item fade-block__item-gl" style="--time: 1.3s;">A good photographer<br> is knowing where<br> to stand</p>
+                <p class="recommend__text fade-block__item fade-block__item-vt" style="--time: 1.6s;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et est erat. 
+                    In vestibulum eget nisi sed sagittis. Sed sed vulputate lacus. Pellentesque at tincidunt dui, id placerat leo. 
+                    Ut porta facilisis augue et interdum. 
+                    Donec turpis massa, euismod vel egestas quis, porttitor sit amet metus. 
+                    Mauris condimentum suscipit cursus.
+                </p>
+            </div>
+            <footer class="footer">
+                <div class="footer__copywriter">
+                    <a class="footer__logo logo" href="#">
+                        <img class="logo-img" src="images/logo.png" alt="Logotype">
+                    </a>
+                    <p class="footer__copywriter-text">
+                        All rights reserved by Eos Free PSD Template by symu.<br>
+                        Check our site www.symu.co for more goods
+                    </p>
+                </div>
+                <nav class="footer__navigation navigation">
+                    <a href="#anchor-home">home</a>
+                    <a href="#anchor-about">about me</a>
+                    <a href="#anchor-work">work</a>
+                    <a href="#anchor-contact">contact</a>
+                </nav>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
