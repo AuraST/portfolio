@@ -8,7 +8,7 @@
                     Живу в городе Ростов-на-Дону.<br>
                     Занимаюсь версткой интерфейсов уже 3 года. 
                     Прошла базовый курс в <a href="https://assets.htmlacademy.ru/certificates/intensive/155/148047.pdf" target="_blank">HTML Academy</a>. 
-                    Более подробную информацию можно посмотреть в <a href="data/docs/Резюме_Любимова_Татьяна.pdf" target="_blank">резюме</a>.
+                    Более подробную информацию можно посмотреть в <a href="data/docs/Резюме_Любимова_Татьяна.pdf" target="_blank">резюме</a>.<br>
                 </p>
                 <Loader v-if="loading" />
                 <Skills 

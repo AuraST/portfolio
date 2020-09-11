@@ -9,11 +9,11 @@
         
         <router-view/>
 
-        <!-- <footer class="footer">
+        <footer class="footer">
             <div class="footer__block">
-                <time class="footer__year">{{ new Date().getFullYear() }}</time> &copy;
+                Репозиторий сайта на <a href="https://github.com/AuraST/portfolio" target="_blink">GitHub</a>
             </div>
-        </footer> -->
+        </footer>
     </div>
 </template>
 

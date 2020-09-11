@@ -64,6 +64,7 @@
         "styleBlock":"grid-row-end: span 10;",
         "detail":{
             "href":"../other-project/sedona/index.html",
+            "linkCode": "https://github.com/AuraST/148047-sedona-27",
             "text":"Учебный проект от Html Academy. Сайт о небольшом городке в Аризоне.",
             "tools":"Проект выполнен на чистом HTML, CSS и JS. Оценка за проект 100 баллов.",
             "images":{
