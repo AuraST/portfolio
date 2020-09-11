@@ -45,6 +45,7 @@
         "styleBlock":"grid-row-end: span 6;",
         "detail":{
             "href":"../other-project/eos/index.html",
+            "linkCode": "https://github.com/AuraST/eos",
             "text":"Учебный проект. EOS это лендинг-портфолио для фотографа.",
             "tools":"Проект адаптивный и выполнен на чистом CSS, HTML и JS. Произведена работа с css-анимацией для блоков. Так же представлена работа с grid сеткой.",
             "images":{
