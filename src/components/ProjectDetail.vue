@@ -16,9 +16,12 @@
             <div class="project__info">
                 <h2 class="subtitle">Описание</h2>
                 <div class="screens">
-                    <div class="screen" v-for="image in dataList.detail.images" :key="image.src">
-                        <img class="screen__img" :src="path(image.src)" :alt="image.alt">
-                        <p class="screen__text">{{ image.desc }}</p>
+                    <div class="screen" v-for="description in dataList.detail.descriptions" :key="description.src">
+                        <img class="screen__img" v-if="description.src" :if="description.src" :src="path(description.src)" :alt="description.alt">
+                        <video class="screen__video" v-if="description.video" :if="description.video" controls>
+                            <source :src="path(description.video)" type="video/mp4">
+                        </video>
+                        <p class="screen__text">{{ description.text }}</p>
                     </div>
                 </div>
             </div>
@@ -45,8 +48,8 @@
             }
         },
         methods: {
-            path(image) {
-                return require('../assets/images/' + image)
+            path(media) {
+                return require('../assets/images/' + media)
             }
         }
     }
