@@ -44,7 +44,7 @@
         "description":"EOS - портфолио фотографа",
         "styleBlock":"grid-row-end: span 6;",
         "detail":{
-            "href":"../other-project/eos/index.html",
+            "href":"https://aurast.github.io/eos/",
             "linkCode": "https://github.com/AuraST/eos",
             "text":"Учебный проект. EOS это лендинг-портфолио для фотографа.",
             "tools":"Проект адаптивный и выполнен на чистом CSS, HTML и JS. Произведена работа с css-анимацией для блоков. Так же представлена работа с grid сеткой.",
@@ -64,7 +64,7 @@
         "description":"Седона - сайт небольшого городка в Аризоне",
         "styleBlock":"grid-row-end: span 10;",
         "detail":{
-            "href":"../other-project/sedona/index.html",
+            "href":"https://aurast.github.io/148047-sedona-27/",
             "linkCode": "https://github.com/AuraST/148047-sedona-27",
             "text":"Учебный проект от Html Academy. Сайт о небольшом городке в Аризоне.",
             "tools":"Проект выполнен на чистом HTML, CSS и JS. Оценка за проект 100 баллов.",
