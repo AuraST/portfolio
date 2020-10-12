@@ -52,7 +52,7 @@
                 "0":{
                     "src":"projects/eos-mockup-promo.png",
                     "alt": "Основной блок на странице",
-                    "text":"Состоит из нескольких блоков, такие как home, about, work и contact."
+                    "text":"Состоит из нескольких блоков, такие как main, about, work и contact."
                 }
             }
         }
@@ -149,6 +149,26 @@
                     "src":"projects/pb-mockup.png",
                     "alt": "Страница с конструктором",
                     "text":"Страница с первым этапом создания газеты."
+                }
+            }
+        }
+    },
+    "Merkury":{
+        "code":"Merkury",
+        "name":"Merkury",
+        "src":"projects/merkury-promo.png",
+        "description":"Merkury - программа для бизнеса",
+        "styleBlock":"grid-row-end: span 6;",
+        "detail":{
+            "href":"https://aurast.github.io/merkury/",
+            "linkCode": "https://github.com/AuraST/merkury",
+            "text":"Учебный проект. Merkury это лендинг рекламирующий программу для бизнеса.",
+            "tools":"Проект адаптивный и выполнен на чистом CSS, HTML и JS. Произведена работа с css-анимацией для блоков. Так же представлена работа с grid сеткой.",
+            "descriptions":{
+                "0":{
+                    "src":"projects/merkury-mockup.png",
+                    "alt": "Основной блок на странице",
+                    "text":"Состоит из нескольких блоков, такие как main, features, info, functions, template, price."
                 }
             }
         }
