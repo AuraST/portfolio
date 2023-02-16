@@ -5,6 +5,7 @@
         "src":"projects/vibor-promo.png",
         "description":"Выбор - портал для дилеров B2B",
         "styleBlock":"grid-row-end: span 10;",
+        "data":"2020 год",
         "detail":{
             "text":"Выбор - это проект с веб-интерфейсом, реализованный на базе 1С:CRM КОРП. Предоставляющий более расширенные возможности для привлечения новых дилеров в партнерскую сеть. Основные возможности это единая среда бронирования объектов и формирования доставки. Проект состоит и множества страниц, некоторые из них представлены ниже.",
             "tools":"В ходе разработки frontend части проекта была использована библиотека JQuery, для сеток Bootstrap v4. Для взаимодействия с backend использовались Ajax запросы. Так же проект был адаптирован под мобильные устройства.",
@@ -43,6 +44,7 @@
         "src":"projects/eos-promo.png",
         "description":"EOS - портфолио фотографа",
         "styleBlock":"grid-row-end: span 6;",
+        "data":"2020 год",
         "detail":{
             "href":"https://aurast.github.io/eos/",
             "linkCode": "https://github.com/AuraST/eos",
@@ -63,6 +65,7 @@
         "src":"projects/sedona-promo.jpg",
         "description":"Седона - сайт небольшого городка в Аризоне",
         "styleBlock":"grid-row-end: span 10;",
+        "data":"2020 год",
         "detail":{
             "href":"https://aurast.github.io/148047-sedona-27/",
             "linkCode": "https://github.com/AuraST/148047-sedona-27",
@@ -83,6 +86,7 @@
         "src":"projects/scan-archive-main-promo.png",
         "description":"Скан-Архив - сайт программного продукта",
         "styleBlock":"grid-row-end: span 10;",
+        "data":"2019 год",
         "detail":{
             "href":"http://scan-archive.ru/",
             "text":"Скан-архив - сайт программного продукта, который необходим для сканирования и хранения документов в электронном виде. Для сайта была разработана новая главная страница.",
@@ -102,6 +106,7 @@
         "src":"projects/gendalf-1cbitrix-promo.png",
         "description":"Лэндинг про 1С-Битрикс для проекта gendalf.ru",
         "styleBlock":"grid-row-end: span 6;",
+        "data":"2019 год",
         "detail":{
             "href":"https://gendalf.ru/bitrix-services/1c-bitrix/",
             "text":"Лендинг для продвижения услуги создания сайтов на 1С-Битрикс. Сделан для компании Гэндальф.",
@@ -121,6 +126,7 @@
         "src":"projects/gendalf-bitrix24-promo.png",
         "description":"Лэндинг про Битрикс24 для проекта gendalf.ru",
         "styleBlock":"grid-row-end: span 6;",
+        "data":"2019 год",
         "detail":{
             "href":"https://gendalf.ru/bitrix-services/bitrix24/",
             "text":"Лендинг для продвижения услуги создания сайтов на Битрикс24. Сделан для компании Гэндальф.",
@@ -140,6 +146,7 @@
         "src":"projects/gendalf-pb-promo.png",
         "description":"Конструктор газеты для проекта gendalf.ru",
         "styleBlock":"grid-row-end: span 10;",
+        "data":"2019 год",
         "detail":{
             "href":"https://gendalf.ru/pb/anniversary/",
             "text":"Конструктор газеты для компании Гэндальф. Реализован к 25-летию электронной газеты «Прогрессивный бухгалтер».",
@@ -159,6 +166,7 @@
         "src":"projects/merkury-promo.png",
         "description":"Merkury - программа для бизнеса",
         "styleBlock":"grid-row-end: span 6;",
+        "data":"2020 год",
         "detail":{
             "href":"https://aurast.github.io/merkury/",
             "linkCode": "https://github.com/AuraST/merkury",
@@ -169,6 +177,27 @@
                     "src":"projects/merkury-mockup.png",
                     "alt": "Основной блок на странице",
                     "text":"Состоит из нескольких блоков, такие как main, features, info, functions, template, price."
+                }
+            }
+        }
+    },
+    "Roby":{
+        "code":"Roby",
+        "name":"Roby",
+        "src":"projects/roby-promo.jpg",
+        "description":"Roby - креативное агентство",
+        "styleBlock":"grid-row-end: span 10;",
+        "data":"2023 год",
+        "detail":{
+            "href":"https://aurast.github.io/roby/",
+            "linkCode": "https://github.com/AuraST/roby",
+            "text":"Некоммерческий проект. Roby это лендинг для креативного агентства.",
+            "tools":"Проект адаптивный и выполнен на чистом CSS, HTML и JS. Произведена работа с css-анимацией для блоков с помощью библиотек WOW и Animate.css. Так же представлена работа с flex и grid сеткой.",
+            "descriptions":{
+                "0":{
+                    "src":"projects/roby-mockup-promo.png",
+                    "alt": "Основной блок на странице",
+                    "text":"Состоит из нескольких блоков."
                 }
             }
         }

@@ -2,7 +2,10 @@
     <div>
         <section class="project"> 
             <div class="project__header">
-                <h1 class="vissualy-hidden">{{ dataList.name }}</h1>
+                <h1 class="vissualy-hidden">
+                    {{ dataList.name }}
+                    <span class="project__header-data">{{ dataList.data }}</span>
+                </h1>
                 <div class="project__links">
                     <a class="project__link" v-if="dataList.detail.href" :if="dataList.detail.href" :href="dataList.detail.href" target="_blank">Ссылка на проект</a>
                     <a class="project__link" v-if="dataList.detail.linkCode" :if="dataList.detail.linkCode" :href="dataList.detail.linkCode" target="_blank">GitHub</a>

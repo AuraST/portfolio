@@ -4,6 +4,8 @@
             <img class="project__photo" :src="path(item.src)" width="360px" :alt="'Скриншот проекта ' + item.name">
             <p class="project__desc">
                 {{ item.description }}
+                <br> 
+                {{ item.data }}
             </p>
         </router-link>
     </section>

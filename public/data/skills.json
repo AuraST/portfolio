@@ -15,20 +15,23 @@
         "desc": "1С-Битрикс - работа с шаблонами для компонентов; Magento - работа с темами, шаблонами и блоками"
     },
     {
-        "name": "LESS"
+        "name": "БЭМ"
     },
     {
-        "name": "postCSS"
+        "name": "LESS"
     },
     {
         "name": "JQuery"
     },
     {
         "name": "Vue",
-        "desc": "Начальный уровень"
+        "desc": "Начальный уровень, есть небольшой опыт"
     },
     {
         "name": "GULP"
+    },
+    {
+        "name": "GIT"
     },
     {
         "name": "Figma"
@@ -38,8 +41,5 @@
     },
     {
         "name": "Adobe Photoshop"
-    },
-    {
-        "name": "GIT"
     }
 ]
